@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+
+	/* fallback for old browsers */
+	background: #c94b4b;
+
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(to left, #4b134f, #c94b4b);
+
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to left, #4b134f, #c94b4b);
+
+	color: #fff;
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	button {
+		cursor: pointer;
+	}
+}
