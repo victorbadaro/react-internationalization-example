@@ -1,0 +1,13 @@
+.language-button {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	filter: grayscale(100%);
+
+	transition: filter 400ms;
+
+	&:hover {
+		filter: grayscale(0);
+	}
+}
