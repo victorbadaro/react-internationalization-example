@@ -1,5 +1,12 @@
+import { Container } from './components/Container';
+
 import './styles/global.scss';
 
 export function App() {
-	return <h1>Hello!</h1>;
+	return (
+		<Container>
+			<h1>Bem vindo!</h1>
+			<p>Essa é uma aplicação de exemplo de internacionalização utilizando o <i>framework</i> <b>i18n</b></p>
+		</Container>
+	);
 }
